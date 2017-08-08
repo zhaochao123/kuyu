@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}
+/*********************以上是重置样式***************************/
+.main{
+	min-width:1440px;
+	height:auto;
+	min-height: 1000px;
+	overflow: auto;
+}
+.main-left{
+	width: 250px;
+	height:auto;
+	min-height: 1000px;
+	background: #247db9;
+	float:left;
+}
+.main-right{
+	min-width: 1190px;
+	height:auto;
+	min-height: 1000px;
+	float:left;
+}
+.main-right iframe{
+	width:100%;
+	min-height:1000px;
+	display: block;
+}
+.foot{
+	width:100%;
+	height:60px;
+	background: black;
+}
+.main-left h1{
+	height:200px;
+	width:100%;
+	text-align: center;
+	line-height:200px;
+	color:#fff;
+	font-size:30px;
+	border-bottom:1px solid #999;
+}
+.leftBottom{
+	width:100%;
+	min-height:1000px;
+	height:1000px;
+}
+.leftBottom dl{
+	width:100%;
+	height:auto;
+}
+.leftBottom dl dt{
+	width:100%;
+	font-size:18px;
+	color:#fff;
+	line-height:50px;
+	text-align:right;
+	padding-right:70px;
+}
+.leftBottom dl dt:hover{
+	background: #093858 !important;
+}
+.leftBottom dl dt img{
+	position: relative;
+	left:20px;
+}
+.erjiList{
+	display:none;
+	height:auto;
+	width:100%;
+}
+.erjiList dd{
+	line-height:50px;
+	font-size:16px;
+	padding-right:100px;
+	text-align:right;
+}
+.erjiList dd:hover{
+	background: #093858 !important;
+}

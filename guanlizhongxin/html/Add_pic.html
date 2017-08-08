@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/Add-pic.css"/>
+</head>
+<body>
+<div class="head">
+	<div class="head-left"><img src="../img/touxiang.jpg"/><span>欢迎您登录：admin</span></div>
+	<div class="head-right"><img src="../img/out.png"/><span>退出登录</span></div>
+</div>
+<div class="clear"></div>
+<div class="kong"></div>
+<div class="title">管理中心>添加图片</div>
+<div class="kong1"></div>
+<div class="Add_pic">
+    <div class="btn">
+        <input type="file" multiple id="inputs" name="inputs[]" style="opacity: 0; filter: Alpha(opacity=0);"/>
+    </div>
+    <div class="choose">按住ctrl可同时批量选择多张图片上传</div>
+    <div></div>
+    <div style="clear:both"></div>
+    <ul id="result">
+    	
+    </ul>
+
+</div>
+<div class="submitBtn"><input type="submit" value="确定"/></div>
+<script src="../../js/jquery-1.7.2.js"></script>
+<script  type="text/javascript">
+    function ProcessFile( e ) {
+        var file = document.getElementById('inputs').files[0];
+        if ( file ) {
+            var reader = new FileReader();
+            reader.onload = function ( event ) {
+                var txt = event.target.result;
+                var img = document.createElement("img");
+                img.src = txt;
+                document.getElementById("result").innerHTML+='<li class="imgW">\n' +
+                    '            <div class="num">\n' +
+                    '                <div class="dd"><img src="'+txt+'"></div>\n' +
+                    '                <div><button class="del"></button></div>\n' +
+                    '                <div>图片信息</div>\n' +
+                    '            </div>\n' +
+                    '        </li>'
+            };
+        }
+        reader.readAsDataURL( file );
+        console.log(file);
+    }
+    function contentLoaded() {
+        document.getElementById('inputs').addEventListener( 'change' ,
+            ProcessFile , false );
+    }
+    window.addEventListener( "DOMContentLoaded" , contentLoaded , false );
+
+//        //删除图片
+       $(document).on('click','.del',function () {
+           $(this).parent().parent().parent().remove();
+       })
+</script>
+</body>
+</html>

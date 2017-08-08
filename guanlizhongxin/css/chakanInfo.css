@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}
+.kong{
+	width:100%;
+	height:60px;
+	background:#f2f2f2;
+}
+.kong1{
+	width:100%;
+	height:50px;
+	background:#f2f2f2;
+}
+/*********************以上是重置样式***************************/
+.head{
+	width:100%;
+	height:80px;
+	padding-top:15px;
+}
+.head-left{
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:left;
+	text-align: left;
+}
+.head-left img{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	float:left;
+	margin-right:10px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
+.head-right{
+	padding-right:40px;
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:right;
+	text-align: right;
+}
+.head-right img{
+	margin-right:10px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position: relative;
+	top:3px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
+/********************************以上是头部样式部分***************************/
+.main{
+	width:100%;
+	height:auto;
+}
+.main h2{
+	height:60px;
+	width:100%;
+	line-height:60px;
+	font-size:16px;
+	color:#333;
+	padding-left:10px;
+	font-weight:100;
+}
+.mainList{
+	width:100%;
+	height:auto;
+}
+.mainList .title{
+	width:100%;
+	height:50px;
+	text-align: center;
+	color:#333;
+	line-height:50px;
+	font-size:16px;
+	font-weight: 600;
+}
+.main ul{
+	width:370px;
+	height:auto;
+	margin: 0 auto;
+}
+.main ul li{
+	width:100%;
+	height:50px;
+	font-size:14px;
+	padding-top:14px;
+}
+.main ul li i{
+	width:250px;
+	height:30px;
+	border: 1px solid #ccc;
+	font-style: normal;
+	float: left;
+}
+.main ul li span{
+	width:90px;
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+	margin-right:30px;
+	float: left;
+}
+.main ul li b{
+	width:250px;
+	height:32px;
+	line-height:32px;
+	text-align: left;
+	font-weight: 100;
+	float: left;
+	padding-left:10px;
+}

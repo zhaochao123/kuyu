@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
+</head>
+<body>
+	<div class="main">  
+        <div class="main-left">
+			<h1>logo酷鱼国际</h1>
+			<div class="leftBottom">
+				<dl>
+					<dt>审核中心<img src="img/anniu1.png"/></dt>
+					<div class="erjiList" style="display:block;">
+						<dd style="background:#093858;"><a href="javascript:;" target="right">店铺基本信息设置</a></dd>
+					</div>
+				</dl>
+				<dl>
+					<dt>商城设置<img src="img/anniu2.png"/></dt>
+				</dl>
+				<dl>
+					<dt>管理中心<img src="img/anniu2.png"/></dt>
+					<div class="erjiList" style="display: none;">
+						<dd><a href="guanlizhongxin/html/dianpuguanliList.html" target="right">店铺管理</a></dd>
+						<dd><a href="guanlizhongxin/html/shangpinleixingguanli.html" target="right">商品类型管理</a></dd>
+						<dd><a href="guanlizhongxin/html/zhanghaoguanli.html" target="right">账号管理</a></dd>
+						<dd><a href="guanlizhongxin/html/guanliyuanguanli.html" target="right">管理员管理</a></dd>
+						<dd><a href="guanlizhongxin/html/Add_pic.html" target="right">图片管理</a></dd>
+					</div>
+				</dl>
+				<dl>
+					<dt>客服在线解答<img src="img/anniu2.png"/></dt>
+				</dl>
+				<dl>
+					<dt>比价数据的录入<img src="img/anniu2.png"/></dt>
+				</dl>
+				<dl>
+					<dt>数据维护<img src="img/anniu2.png"/></dt>
+				</dl>
+				<dl>
+					<dt>第三方支付统计<img src="img/anniu2.png"/></dt>
+				</dl>
+			</div>
+	</div> 
+	<div class="main-right">
+		 <iframe class="right" name="right" src="guanlizhongxin/html/dianpuguanliList.html" frameborder="0" scrolling="no"></iframe>		 
+	</div>
+</div>
+<div class="clear"></div>
+<div class="foot"></div>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+<script>
+	window.onload=window.onresize=function(){
+		if(parseInt($(window).width()-250)>=1190){
+			$(".main-right").width(parseInt($(window).width()-250))
+		}else{
+			$(".main-right").width(1190)
+		}
+	}
+</script>
+</html>

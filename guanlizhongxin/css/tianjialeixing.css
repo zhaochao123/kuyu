@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}
+.kong{
+	width:100%;
+	height:60px;
+	background:#f2f2f2;
+}
+.kong1{
+	width:100%;
+	height:50px;
+	background:#f2f2f2;
+}
+/*********************以上是重置样式***************************/
+.head{
+	width:100%;
+	height:80px;
+	padding-top:15px;
+}
+.head-left{
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:left;
+	text-align: left;
+}
+.head-left img{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	float:left;
+	margin-right:10px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
+.head-right{
+	padding-right:40px;
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:right;
+	text-align: right;
+}
+.head-right img{
+	margin-right:10px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position: relative;
+	top:3px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
+/********************************以上是头部样式部分***************************/
+.main{
+	width:100%;
+	height:auto;
+}
+.main h2{
+	height:60px;
+	width:100%;
+	line-height:60px;
+	font-size:16px;
+	color:#333;
+	padding-left:10px;
+	font-weight:100;
+}
+.main-content{
+	width:445px;
+	height:auto;
+	margin: 0 auto;
+}
+.main-content .text{
+	width:100%;
+	padding:15px 0;
+}
+.main-content label{
+	width:125px;
+	height:30px;
+	line-height:30px;
+	color:#333;
+	text-align: right;
+	padding-right:20px;
+	float:left;
+}
+.main-content .text input{
+	height:30px;
+	width:320px;
+	border:1px solid #666;
+	border-radius:5px;
+}
+.main-content .textare{
+	width:100%;
+	padding:15px 0;
+}
+.main-content .textare textarea{
+	height:78px;
+	width:320px;
+	border:1px solid #666;
+	border-radius: 5px;
+}
+.main-content .btn{
+	width:100%;
+	padding:15px 0;
+}
+.main-content .btn span{
+	width:320px;
+	height:30px;
+	float:left;
+}
+.main-content .btn span .btn1{
+	float:left;
+	line-height:30px;
+	font-size:16px;
+	color:#333;
+	border:0;
+	border:1px solid #333;
+	background: none;
+	padding:0 7px;
+	border-radius: 5px;
+}
+.main-content .btn span .btn2{
+	float:right;
+	padding:0 7px;
+	line-height:30px;
+	font-size:16px;
+	color:#fff;
+	border:0;
+	border:1px solid #333;
+	background: #247db9;
+	border-radius: 5px;
+}
