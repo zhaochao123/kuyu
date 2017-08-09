@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ec7705-dc22-458d-9690-697d4c5d65e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_gongyingshangguanli.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_gongyingshangguanli.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan2.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan_dengji.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan_dengji.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan_dengji2.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan_dengji2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_jiaoseguanli.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_jiaoseguanli.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpai.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpai.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html" afterPath="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage_pinpai.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage_pinpai.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpai.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -103,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dianpu_shenhe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shenhe/dianpu_shenhe.html">
+      <file leaf-file-name="manage_pinpaifenleitianjia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="162">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commodity_information.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shenhe/commodity_information.html">
+      <file leaf-file-name="manage_pinpaiguanli.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="162">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -145,7 +139,6 @@
         <option value="$PROJECT_DIR$/guanlizhongxin/css/manage_shangpinguanlitianjia.css" />
         <option value="$PROJECT_DIR$/guanlizhongxin/css/manage_shangpinpinpai.css" />
         <option value="$PROJECT_DIR$/guanlizhongxin/css/manage_tianjiajiaose.css" />
-        <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_gongyingshangguanli.html" />
         <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan.html" />
@@ -154,6 +147,8 @@
         <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_huiyuan_dengji2.html" />
         <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_jiaoseguanli.html" />
         <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpai.html" />
+        <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html" />
+        <option value="$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html" />
       </list>
     </option>
   </component>
@@ -249,12 +244,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502257144096</updated>
       <workItem from="1502257145344" duration="359000" />
-      <workItem from="1502263433657" duration="8410000" />
+      <workItem from="1502263433657" duration="8611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8769000" />
+    <option name="totallyTimeSpent" value="8970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="270" y="15" width="1641" height="948" extended-state="0" />
@@ -381,14 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -521,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -621,6 +600,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaifenleitianjia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guanlizhongxin/html/manage_pinpaiguanli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
