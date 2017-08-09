@@ -1,6 +1,8 @@
 *{margin: 0px;
 	padding: 0px;}
+img{border: none;}
 .clear{clear:both;}
+img{border: none;}
 a{text-decoration: none;
 	}
 .hidden{display: none;}
@@ -58,20 +60,35 @@ a{text-decoration: none;
 	border-radius: 5px;
 	}
 .btn>img{vertical-align: middle;}
-.fenye{ float: right;
-		width: 400px;
-		height: 25px;
-		}
-.fenye input{width: 23px;
-			height: 23px;
-				}	
-#yema{width: 39px;
-		height: 24px;}
-.tab_container{width: 100%;
-				height: 500px;}
+.tab_container{width: 100%;				
+				}
 .every_ye{padding-left: 25px;
 		padding-right: 25px;}
 .shop_img{width: 50px;
 		 height: 50px;
 		 vertical-align: middle;
 		 margin-right: 25px;}
+.footer .footer-right{
+	width:60%;
+	height:60px;
+	float:right;
+	text-align: right;
+	font-size:14px;
+	line-height: 60px;
+	padding-right:40px;
+}
+.footer .footer-right p{
+	display: inline-block;
+}
+.footer .footer-right p a{
+	display: inline-block;
+	line-height:30px;
+	font-size:14px;
+	color:#333;
+	width:50px;
+	text-align: center;
+	height:30px;
+	border-radius:5px ;
+	border:1px solid #ADD8E6;
+	background: #fff;
+}
