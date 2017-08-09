@@ -3,6 +3,7 @@
 .clear{clear:both;}
 a{text-decoration: none;
 	}
+img{border: none;}
 ul li{list-style-type: none;}
 .hidden{display: none;}
 body{min-width: 1500px;
