@@ -26,7 +26,6 @@ html,body{
 	background:#f2f2f2;
 }
 /*********************以上是重置样式***************************/
-/********************************以上是头部样式部分***************************/
 .main{
 	width:100%;
 	height:auto;
@@ -44,6 +43,13 @@ html,body{
 	width:50%;
 	height:auto;
 	margin: 0 auto;
+}
+.main-content h3{
+	font-size:16px;
+	color:#333;
+	line-height:50px;
+	width:100%;
+	text-align: center;
 }
 .main-content p{
 	width:100%;
@@ -70,7 +76,6 @@ html,body{
 	width:320px;
 	height:30px;
 	border:1px solid #333;
-	border-radius: 8px;
 }
 .main-content p b{
 	padding-left:10px;
@@ -89,17 +94,6 @@ html,body{
 	width:320px;
 	height:118px;
 	border:1px solid #333;
-	border-radius: 8px;
-}
-.main-content p .rest , .main-content p .sure{
-	padding:0 20px;
-	line-height:30px;
-	border:1px solid #666;
-	border-radius: 5px;
-	color:#666;
-	font-size:14px;
-	text-align: center;
-	float:left;
 }
 .main-content .anniu span{
 	width:320px;
@@ -108,4 +102,10 @@ html,body{
 	float:right;
 	background:#247db9;
 	color:#fff;
+	padding:0 20px;
+	line-height:30px;
+	border:1px solid #666;
+	border-radius: 5px;
+	font-size:14px;
+	text-align: center;
 }

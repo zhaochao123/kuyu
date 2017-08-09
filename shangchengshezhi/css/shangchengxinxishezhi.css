@@ -26,6 +26,55 @@ html,body{
 	background:#f2f2f2;
 }
 /*********************以上是重置样式***************************/
+.head{
+	width:100%;
+	height:80px;
+	padding-top:15px;
+}
+.head-left{
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:left;
+	text-align: left;
+}
+.head-left img{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	float:left;
+	margin-right:10px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
+.head-right{
+	padding-right:40px;
+	height:50px;
+	line-height:50px;
+	width:50%;
+	float:right;
+	text-align: right;
+}
+.head-right img{
+	margin-right:10px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position: relative;
+	top:3px;
+}
+.head-left span{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#333;
+	display:inline-block;
+}
 /********************************以上是头部样式部分***************************/
 .main{
 	width:100%;
@@ -41,14 +90,52 @@ html,body{
 	font-weight:100;
 }
 .main-content{
-	width:50%;
+	width:60%;
 	height:auto;
 	margin: 0 auto;
+}
+.main-content h3{
+	font-size:16px;
+	color:#333;
+	line-height:50px;
+	width:100%;
+	text-align: center;
 }
 .main-content p{
 	width:100%;
 	height:50px;
 	padding-top:15px;
+}
+.main-content .upload {
+	margin-bottom:15px;
+}
+.main-content .upload label{
+	position: relative;
+	top:10px;
+}
+.main-content .upload span{
+	position: relative;
+	width:200px;
+	height:50px;
+	background: url(../img/upload.png) center no-repeat;
+}
+.main-content .upload span a{
+	width:125px;
+	height:50px;
+	display: block;
+	background: #c82e2e;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	position: absolute;
+	right:-245px;
+	top:0px;
+}
+.main-content .upload span input{
+	width:200px;
+	height:50px;
+	opacity: 0;
+	filter: Alpha(opacity=0);
 }
 .main-content p label{
 	width:30%;
@@ -70,7 +157,6 @@ html,body{
 	width:320px;
 	height:30px;
 	border:1px solid #333;
-	border-radius: 8px;
 }
 .main-content p b{
 	padding-left:10px;
@@ -89,17 +175,6 @@ html,body{
 	width:320px;
 	height:118px;
 	border:1px solid #333;
-	border-radius: 8px;
-}
-.main-content p .rest , .main-content p .sure{
-	padding:0 20px;
-	line-height:30px;
-	border:1px solid #666;
-	border-radius: 5px;
-	color:#666;
-	font-size:14px;
-	text-align: center;
-	float:left;
 }
 .main-content .anniu span{
 	width:320px;
@@ -108,4 +183,10 @@ html,body{
 	float:right;
 	background:#247db9;
 	color:#fff;
+	padding:0 20px;
+	line-height:30px;
+	border:1px solid #666;
+	border-radius: 5px;
+	font-size:14px;
+	text-align: center;
 }
