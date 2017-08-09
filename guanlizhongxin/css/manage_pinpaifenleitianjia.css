@@ -1,0 +1,163 @@
+*{padding: 0px;
+    margin: 0px;}
+.clear{clear: both;}
+html,body{width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    box-sizing: border-box}
+a{text-decoration: none;
+    color: #333;}
+img{
+    border:none;}
+/*右上部分*/
+.content_right_one{height: 80px;
+    /* border: 1px solid red;*/
+    line-height: 80px;
+    font-size: 18px;
+    padding-left: 11px;}
+.content_one_left{float: left;}
+.content_one_left>img{width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.content_one_right{float: right;
+    padding-right: 9px;}
+.content_one_right>img{vertical-align: middle;}
+.content_right_two{height: 40px;
+    background: #f2f2f2;}
+.content_right_three{height: 60px;line-height: 60px;}
+.content_right_three>p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.content_right_four{height: 40px;
+    background: #f2f2f2;}
+/*右下*/
+.content_right_bottom{
+    font-size: 14px;
+    color: #333;
+}
+.content_right_bottom_content>form{
+    text-align: center;
+}
+.form_div{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.form_div input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.form_div>textarea{
+    width: 300px;
+    height: 150px;
+    resize: none;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.form_div>label{
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+}
+.form_radio_div{
+    margin-top: 110px;
+}
+.form_radio_div>span{
+    width: 100px;
+    display: inline-block;
+}
+
+.form_radio_div  input{
+    height: 15px;
+    width:15px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+.form_div_i{
+    width: 100px;
+    display: inline-block;
+}
+.a_btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border:1px solid lightsteelblue;
+    text-align: center;
+    line-height: 50px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    color: white;
+    outline: none;
+    margin-left: 20px;
+}
+.a_btn1{
+    background-color: #ccc;
+
+    margin-right: 200px;
+}
+.a_btn2{
+    background-color: #65a4c1;
+}
+/*.Logo input{*/
+/*width: 214px;*/
+/*}*/
+.form_div>div{
+    position: relative;
+    width:377px;
+    margin: 0 auto;
+    left:5px;
+    *left:7px;
+}
+.Logo{
+    display: inline-block;
+    position: absolute;
+    height: 34px;
+    width: 82px;
+    top: 9px;
+    /*right: 5px;*/
+    *top:8px;
+    *right:-33px;
+    background: url("../img/shangchuan.png")no-repeat 100% 100%;
+
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='img/shangchuan.png',sizingMethod='scale');
+    *background-size:auto;
+}
+/*.Logo>img{*/
+    /*width: 82px;*/
+    /*height: 34px;*/
+/*}*/
+#photoCover{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+#upload_file{
+    display: inline-block;
+    border:1px solid #000;
+    opacity:0;
+    filter:alpha(opacity=0);
+    width:80px;
+    /*height:60px;*/
+
+}
+
+.sub>input{
+    width: 60px;
+    height: 30px;background-color: white;
+    border: 1px solid lightgrey;
+    outline: none;
+    border-radius: 8px;
+margin-top: 130px;
+margin-left:400px;}

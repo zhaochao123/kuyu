@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       #editor_id{
+            width:600px!important;
+            height:100px!important;
+        }
+    </style>
+</head>
+
+<body>
+<textarea id="editor_id" name="content" style="width:800px;height:600px;">
+    这里输入内容...
+</textarea>
+</body>
+</html>
+<script charset="utf-8" src="kindeditor-all-min.js"></script>
+<script charset="utf-8" src="lang/zh-CN.js"></script>
+<script>
+    KindEditor.ready(function(K) {
+//        window.editor = K.create('#editor_id');
+        K.create('#editor_id',{width:"800px",height:"500px"});
+    });
+</script>

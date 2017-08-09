@@ -1,0 +1,204 @@
+*{padding: 0px;
+    margin: 0px;}
+.clear{clear: both;}
+html,body{width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    box-sizing: border-box}
+a{text-decoration: none;
+    color: #333;}
+img{
+    border:none;}
+/*右上部分*/
+.content_right_one{height: 80px;
+    /* border: 1px solid red;*/
+    line-height: 80px;
+    font-size: 18px;
+    padding-left: 11px;}
+.content_one_left{float: left;}
+.content_one_left>img{width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.content_one_right{float: right;
+    padding-right: 9px;}
+.content_one_right>img{vertical-align: middle;}
+.content_right_two{height: 40px;
+    background: #f2f2f2;}
+.content_right_three{height: 60px;line-height: 60px;}
+.content_right_three>p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.content_right_four{height: 40px;
+    background: #f2f2f2;}
+/*右下*/
+.content_right_bottom{
+    font-size: 14px;
+    color: #333;
+}
+.content_right_bottom_content>form{
+    text-align: center;
+}
+.form_div{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.form_div input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.form_div_span{
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    color: red;
+}
+.form_div>label{
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.form_radio_div{
+    /*margin-top: 110px;*/
+}
+.form_radio_div>span{
+    width: 100px;
+    display: inline-block;
+}
+
+.form_radio_div  input{
+    height: 15px;
+    width:15px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+#photoCover{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    width: 200px;
+    height: 50px;
+    color: red;
+    margin-top: 50px
+}
+
+.form_div_i{
+    width: 310px;
+    display: inline-block;
+}
+.tu_div0{
+    display: inline-block;
+    width: 707px;
+}
+.tu{
+
+    display: inline-block;
+    float: left;
+}
+.tu_div{
+    display: inline-block;
+    width: 317px;
+    vertical-align: top;
+}
+.tu_div0 label{
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 40px;
+}
+.tu_div1{
+    width: 100px;
+    height: 130px;
+    border: 1px solid lightgrey;
+    float: left;
+}
+.tu_div1>input{
+    width: 100px;
+    height: 130px;
+    opacity:0;
+    filter:alpha(opacity=0);
+   position: relative;
+    top:-20px;
+}
+.tu_div1 span{
+    position: relative;
+    top: 50px;
+
+}
+.text_div0{
+
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+
+}
+.text_div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 310px;
+}
+.text>label{
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+
+    margin-left: 144px;
+}
+.text{
+    float: left;
+}
+
+
+.a_btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border:1px solid lightsteelblue;
+    text-align: center;
+    line-height: 50px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    color: white;
+    outline: none;
+    margin-left: 20px;
+}
+.a_btn1{
+    background-color: #ccc;
+
+    margin-right: 200px;
+}
+.a_btn2{
+    background-color: #65a4c1;
+}
+
+
+.sub>input{
+    width: 60px;
+    height: 30px;background-color: white;
+    border: 1px solid lightgrey;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left:400px;}
+
+
+
+
+/*编辑器*/
+#editor_id{
+    width:600px!important;
+    height:100px!important;
+}

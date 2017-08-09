@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加商品</title>
+    <link rel="stylesheet" href="../css/manage_shangpinguanlitianjia.css">
+
+
+</head>
+<body>
+<div class="right">
+    <div class="content_right_top">
+        <div class="content_right_one">
+            <div class="content_one_left">
+                <img src="../img/img3_03.png"/>
+                <span>欢迎您登陆：admin</span>
+            </div>
+            <div class="content_one_right">
+                <img src="../img/out.png"/>
+                <span><a href="javascript:;">退出登陆</a></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content_right_two"></div>
+        <div class="content_right_three">
+            <p>
+                管理中心>商品管理>添加商品
+            </p>
+        </div>
+        <div class="content_right_four"></div>
+    </div>
+    <div class="content_right_bottom">
+
+        <div class="content_right_bottom_content">
+            <form action="">
+                <div class="form_div">
+                    <label>商品名称:</label>
+                    <input type="text" required />
+                    <span class="form_div_span">*必填项</span>
+                </div>
+                <div class="form_div">
+                    <label>商品货号:</label>
+                    <input type="text" required />
+                    <span class="form_div_span">*必填项</span>
+                </div>
+                <div class="form_div">
+                    <label>商品条形码:</label>
+                    <input type="text"  />
+                    <span class="form_div_span"></span>
+                </div>
+                <div class="form_div">
+                    <label>商品规格:</label>
+                    <input type="text"  placeholder="例如:1/台"/>
+                    <span class="form_div_span"></span>
+                </div>
+                <div class="form_div">
+                    <label>商品重量:</label>
+                    <input type="text"  placeholder="例如:10/g"/>
+                    <span class="form_div_span"></span>
+                </div>
+                <div class="form_div">
+                    <label>商品关键字:</label>
+                    <input type="text"  placeholder="例如:吹" required/>
+                    <span class="form_div_span">*必填项</span>
+                </div>
+                <div class="form_div">
+                    <label>商品简短描述:</label>
+                    <input type="text"  placeholder="内容不超过100字" required/>
+                    <span class="form_div_span">*必填项</span>
+                </div>
+                <div class="tu_div0">
+                   <div class="tu"> <label>商品图片: </label></div>
+                    <div class="tu_div tu">
+                        <div class="tu_div1">
+                            <span>上传图片</span>
+                            <input type="file" id="upload_file" onchange="doChange(this)">
+                        </div>
+                        <span id="photoCover"></span>
+                    </div>
+                   <div class="tu"> <span class="form_div_span tu_span"> *必填项</span></div>
+                </div>
+                <div  class="form_div form_radio_div">
+                    <label>是否启用:</label>
+                    <span>
+                        <input type="radio" name="sex1" id="sex1" checked/>
+                        <label for="sex1">是</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="sex1" id="sex2"/>
+                        <label for="sex2">否</label>
+                   </span>
+                    <i class="form_div_i"></i>
+                </div>
+                <div class="form_div text_div0">
+                   <div class="text"> <label>商品详情描述:</label></div>
+                    <div class="text_div text">
+                        <textarea id="editor_id" name="content">
+                            这里输入内容...
+                        </textarea>
+                    </div>
+                </div>
+                <div class="sub">
+                    <input type="submit" value="提交">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+<script charset="utf-8" src="../lib/kindeditor/kindeditor-all-min.js"></script>
+<script charset="utf-8" src="../lib/kindeditor/lang/zh-CN.js"></script>
+<script charset="utf-8" src="../js/manage_shangpinguanlitianjia.js"></script>
+
+
+
+
+

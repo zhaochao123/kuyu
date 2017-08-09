@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>品牌管理</title>
+    <link rel="stylesheet" href="../css/manage_pinpai.css">
+
+
+</head>
+<body>
+<div class="right">
+    <div class="content_right_top">
+        <div class="content_right_one">
+            <div class="content_one_left">
+                <img src="../img/img3_03.png"/>
+                <span>欢迎您登陆：admin</span>
+            </div>
+            <div class="content_one_right">
+                <img src="../img/out.png"/>
+                <span><a href="javascript:;">退出登陆</a></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content_right_two"></div>
+        <div class="content_right_three">
+            <p>
+                管理中心>品牌管理
+            </p>
+        </div>
+        <div class="content_right_four"></div>
+    </div>
+    <div class="content_right_bottom">
+
+        <div class="content_right_bottom_content">
+            <form action="">
+                <div class="form_div">
+                    <label>品牌名称:</label>
+                    <input type="text" required />
+                    <!--<span class="form_div_span"></span>-->
+                </div>
+                <div  class=" form_div">
+                    <div>
+                        <label>品牌logo:</label>
+                        <input id="photoCover" type="text"/>
+                        <div class="Logo">
+                            <input  type="file" multiple id="upload_file" name="upload_file" onchange="doChange(this)"/>
+                        </div>
+                    </div>
+                </div>
+                <div  class="form_div">
+                    <label>品牌描述:</label>
+
+                    <textarea></textarea>
+                </div>
+
+                <div  class="form_div form_radio_div">
+                    <label>是否显示:</label>
+                    <span>
+                        <input type="radio" name="sex1" id="sex1" checked/>
+                        <label for="sex1">是</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="sex1" id="sex2"/>
+                        <label for="sex2">否</label>
+                   </span>
+                    <i class="form_div_i"></i>
+                </div>
+                <a class="a_btn a_btn1" href="javascript:;">返回</a>
+                <a  class="a_btn a_btn2" href="javascript:;">提交</a>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+<script>
+    function doChange(file){
+        var upload_file = $.trim($("#upload_file").val());    //获取上传文件
+        $('#photoCover').val(upload_file);     //赋值给自定义input框
+    }
+</script>
+
+
+
+

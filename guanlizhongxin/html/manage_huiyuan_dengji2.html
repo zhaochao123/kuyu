@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员管理</title>
+
+    <link rel="stylesheet" href="../css/manage_huiyuan_dengji2.css">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+</head>
+<body>
+<div class="right">
+    <div class="content_right_top">
+        <div class="content_right_one">
+            <div class="content_one_left">
+                <img src="../img/img3_03.png"/>
+                <span>欢迎您登陆：admin</span>
+            </div>
+            <div class="content_one_right">
+                <img src="../img/out.png"/>
+                <span><a href="javascript:;">退出登陆</a></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content_right_two"></div>
+        <div class="content_right_three">
+            <p>
+                管理中心>会员管理>会员等级
+            </p>
+        </div>
+        <div class="content_right_four"></div>
+    </div>
+    <div class="content_right_bottom">
+        <div class="content_right_bottom_content">
+            <p>添加会员等级:</p>
+            <form action="">
+                <div class="form_div">
+                    <label>会员等级名称:</label>
+                    <input type="text" required />
+                </div>
+                <div  class="form_div_jifen">
+                    <label>积分下限:</label>
+                    <input type="text" value="0" required />
+                    <label>积分上限:</label>
+                    <input type="text" value="0" required />
+                </div>
+                <div class="form_div_checkbox">
+                    <input type="checkbox" id="chb1" checked />
+                    <label for="chb1">在商品详情页显示该会员等级的商品价格</label>
+                </div>
+                <div class="form_div_checkbox">
+                    <input type="checkbox" id="chb2"  />
+                    <label for="chb2">特殊会员组的会员不会随着积分的变化而变化</label>
+                </div>
+                <div class="form_div">
+                    <label>初始折扣率:</label>
+                    <input type="text" value="80" required />
+                </div>
+                <div  class="form_div_submit">
+                    <input type="submit" value="确定">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+<script src="../lib/Ecalendar.jquery.min.js"></script>
+<script src="../js/manage_huiyuan2.js"></script>
+
+
+
+
+
+
+
