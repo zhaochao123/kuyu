@@ -24,7 +24,7 @@ img{
     vertical-align: middle;
 }
 .content_one_right{float: right;
-    padding-right: 9px;}
+    padding-right: 40px;}
 .content_one_right>img{vertical-align: middle;}
 .content_right_two{height: 40px;
     background: #f2f2f2;}
