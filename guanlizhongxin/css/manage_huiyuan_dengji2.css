@@ -41,10 +41,10 @@ img{
 }
 .content_right_bottom_content>p{
     line-height: 60px;
-    /*margin: 5px 0px 5px 10px;*/
     height: 60px;
-    margin: 0px auto;
     font-weight: bold;
+    text-align: center;
+    text-indent: 50px;
 }
 .content_right_bottom_content>form{
     text-align: center;
