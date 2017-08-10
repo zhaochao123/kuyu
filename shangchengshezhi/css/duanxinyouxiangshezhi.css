@@ -57,7 +57,7 @@ html,body{
 	padding-top:15px;
 }
 .main-content p label{
-	width:30%;
+	width:40%;
 	height:30px;
 	line-height:30px;
 	text-align:right;
@@ -67,7 +67,7 @@ html,body{
 	float: left;
 }
 .main-content p span{
-	width:70%;
+	width:60%;
 	height:30px;
 	text-align:left;
 	float: left;
