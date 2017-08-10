@@ -92,3 +92,10 @@ a{text-decoration: none;
 	border:1px solid #ADD8E6;
 	background: #fff;
 }
+ .footer-right>p>select{width:60px; 
+					  	height:30px; 
+					    border:1px solid #ADD8E6;   
+					    font-size:14px; 
+					    color:#333;  
+					    border-radius: 5px;}
+					
